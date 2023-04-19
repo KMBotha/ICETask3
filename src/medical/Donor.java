@@ -1,8 +1,6 @@
 /*
 
-Create a class named donor that includes an ID number, age, BloodData and date registered. 
-Create a default contructor that sets ID number to "0", the age to 0 and the BloodData to "O" and "+". 
-Create an overloaded constructor that provides values for each fields.
+This class is storing the donor information.
 
 */
 
@@ -11,7 +9,7 @@ package medical;
 import java.time.LocalDate;
 
 
-public class Donor{
+public class Donor{ //Declarations
     
     
     private String name;

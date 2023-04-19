@@ -1,9 +1,8 @@
 package medical;
 /*
-Create a class called BloodData that holds a blood type (the four blood types are O, A, B, AB) and a RH factor (the factors are + and -). 
-Create a default constructor that sets the fields to "O" and "+", and an overloaded constructor that requires values for both fields
+This class is for storing the Blood group and rhesus factor. By defualt this will be O+.
 */
-public class BloodData {
+public class BloodData { //declarations 
     
     private String group;
     private String rhesus;
